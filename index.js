@@ -1,6 +1,5 @@
 
 var React = require('react')
-  , cx = React.addons.classSet
   , PT = React.PropTypes
 
   , saveAs = require('./save-as')
