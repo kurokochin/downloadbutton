@@ -56,7 +56,7 @@ var DownloadButton = React.createClass({
 
   render: function () {
     // need one or the other
-    if (!this.props.genFile && !this.props.fileData) {
+    if (!this.props.genFile && !this.props.fileData && !this.props.async) {
       return <em>Invalid configuration for download button</em>
     }
     var style = this.props.style
